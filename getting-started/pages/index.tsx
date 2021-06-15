@@ -23,7 +23,7 @@ const IndexPage = () => {
           type="email"
         />
         <Input placeholder="*******" variant="filled" mb={6} type="password" />
-        <Button mb={6} colorScheme="blue">
+        <Button mb={6} colorScheme="blue" size="xl" variant="with-shadow">
           Log in
         </Button>
         <Button onClick={toggleColorMode}>Toggle Color Mode </Button>
